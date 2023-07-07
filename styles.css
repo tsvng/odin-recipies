@@ -3,6 +3,10 @@
   font-size: 20px;
 }
 
+body.homepage {
+  margin: 0px auto;
+  text-align: center;
+}
 img {
   height: auto;
   width: 500px;
@@ -27,4 +31,20 @@ ul,
 ol {
   font-size: 18px;
   background-color: rgb(252, 223, 228);
+}
+
+ul.homepage-list {
+  background-color: azure;
+  list-style-type: none;
+  width: 480px;
+  margin: 0px auto;
+  padding: 10px;
+}
+
+.homepage-list li {
+  margin: 10px 0px;
+}
+
+.homepage-list strong {
+  text-decoration: underline;
 }
